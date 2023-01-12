@@ -6,7 +6,7 @@ load_dotenv()
 API_ID = os.getenv("API_ID", "24330005").strip()
 API_HASH = os.getenv("API_HASH", "f7b37cb26bd04ab9e43f57ac269288e3").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "5879426315:AAG9YWXb_3vLNmJQHZWok5cHpr4vULLzmJU").strip()
-DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Sessionbot:session9999@sessionbot.yz6kvyv.mongodb.net/?retryWrites=true&w=majority").strip()
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "")
 
 if not API_ID:
